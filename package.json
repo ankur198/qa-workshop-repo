@@ -1,0 +1,14 @@
+{
+  "name": "qa-workshop-demo",
+  "version": "1.0.0",
+  "description": "QA Workshop Demo - Swag Labs Test Suite",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
